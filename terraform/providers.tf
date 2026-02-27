@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "DSB"
+    organization = "DSB-BAKS"
 
     workspaces {
       name = "azure-devsecops-pipelines"
