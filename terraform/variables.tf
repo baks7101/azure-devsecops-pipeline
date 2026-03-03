@@ -6,7 +6,7 @@ variable "TFC_AZ_SUBSCRIPTION_ID" {}
 variable "TFC_AZ_SUBSCRIPTION_NAME" {}
 variable "TFC_AZ_DEVOPS_ORG_SERVICE_URL" {}
 variable "TFC_AZ_DEVOPS_PAT" {}
-variable "TFC_AZ_DEVOPS_GITHUB_PAT" {}
+
 
 ### Resource Group Variables ###
 variable "resource_group_name" {
