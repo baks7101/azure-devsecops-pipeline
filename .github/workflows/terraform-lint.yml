@@ -20,6 +20,6 @@ jobs:
       - name: Show Terraform version
         run: terraform version
 
-      - name: Format Terraform files
-        run: terraform fmt -check -recursive
+      - name: Format Terraform files (check + diff)
+        run: terraform fmt -check -diff -recursive
         working-directory: terraform
