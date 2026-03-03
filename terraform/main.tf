@@ -35,7 +35,7 @@ resource "azuredevops_build_definition" "this" {
 
   repository {
     repo_type             = "GitHub"
-    repo_id               = "devsecblueprint/azure-python-fastapi"
+    repo_id               = "baks7101/azure-python-fastapi"
     branch_name           = "refs/heads/main"
     yml_path              = ".azdo-pipelines/azure-pipelines.yml"
     service_connection_id = var.github_service_connection_id
