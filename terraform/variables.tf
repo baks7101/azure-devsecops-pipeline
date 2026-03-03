@@ -43,4 +43,4 @@ variable "uaid_name" {
 variable "github_service_connection_id" {
   type        = string
   description = "Azure DevOps GitHub service connection (service endpoint) ID GUID"
-} 
+}
