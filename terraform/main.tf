@@ -15,11 +15,11 @@ resource "azuredevops_project" "this" {
 }
 
 ### Create a new Git repository for FastAPI
-resource "azuredevops_serviceendpoint_github" "this" {
+#resource "azuredevops_serviceendpoint_github" "this" {
   project_id            = azuredevops_project.this.id
   service_endpoint_name = "python-fastapi"
 
-  auth_personal {
+  #auth_personal {
     personal_access_token = var.TFC_AZ_DEVOPS_GITHUB_PAT
   }
 }
